@@ -1,0 +1,29 @@
+{
+  "name": "redux-voting-server",
+  "version": "1.0.0",
+  "description": "Rock the vote",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel/register --require ./test/test_helper.js --recursive",
+    "test:watch": "npm run test -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lw7360/redux-voting-server.git"
+  },
+  "author": "Larry Wu <lw7360@gmail.com> (http://larrywu.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lw7360/redux-voting-server/issues"
+  },
+  "homepage": "https://github.com/lw7360/redux-voting-server#readme",
+  "devDependencies": {
+    "babel": "^5.8.29",
+    "chai": "^3.4.0",
+    "chai-immutable": "^1.4.0",
+    "mocha": "^2.3.3"
+  },
+  "dependencies": {
+    "immutable": "^3.7.5"
+  }
+}
